@@ -53,6 +53,7 @@ services:
       - "127.0.0.1:${LOCAL_BACKEND_PORT:-3001}:3000"
     networks:
       - pblindadas_local
+      - pblindadas_access
 
   frontend:
     image: pblindadas-recovery-frontend:0ecacbd1
@@ -63,7 +64,7 @@ services:
     ports:
       - "127.0.0.1:${LOCAL_FRONTEND_PORT:-8081}:80"
     networks:
-      - pblindadas_local
+      - pblindadas_access
 
 volumes:
   pblindadas_local_postgres_data:
@@ -72,3 +73,5 @@ networks:
   pblindadas_local:
     driver: bridge
     internal: true
+  pblindadas_access:
+    driver: bridge
