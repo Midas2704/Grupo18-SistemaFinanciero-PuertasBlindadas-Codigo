@@ -57,6 +57,3 @@ docker compose --env-file .env -f docker-compose.local.yml -f docker-compose.sou
 - [Arquitectura](docs/ARQUITECTURA.md)
 - [Equivalencia VPS/local](docs/EQUIVALENCIA_VPS_LOCAL.md)
 
-## Recuperación exacta
-
-Las imágenes Docker exactas del VPS y el respaldo exacto cifrado se conservan fuera de Git. Su clave se mantiene separada. No deben publicarse junto con este repositorio.
