@@ -118,6 +118,7 @@ export const operacionesPermiso: Record<string, string> = {
  consultarInventarioValorizadoM7:'CU254', consultarMaterialesProyectoOtM7:'CU255', consultarRiesgoStockM7:'CU256', consultarRotacionInventarioM7:'CU257', consultarComprasRecepcionesM7:'CU258',
  registrarAjusteLiquidezM7:'CU228', consultarCatalogosAjusteLiquidezM7:'CU228', crearCuentaBancariaM7:'CU228', actualizarCuentaBancariaM7:'CU228', crearSaldoInicialBancarioM7:'CU228', actualizarSaldoInicialBancarioM7:'CU228', consultarParametrosLiquidezM7:'CU232', configurarParametroLiquidezM7:'CU232', consultarCostosInstalacionM7:'CU244', configurarCostoInstalacionM7:'CU244', consultarParametroStockInmovilM7:'CU257', configurarParametroStockInmovilM7:'CU257',
  listarSolicitudesCreditoM8:'CU259', obtenerSolicitudCreditoM8:'CU259',
+ listarClientesB2BCreditoM8:'CU260',
  crearSolicitudInicialM8:'CU260', crearSolicitudExcepcionM8:'CU261', cancelarSolicitudCreditoM8:'CU262',
  resolverSolicitudInicialM8:'CU263', resolverSolicitudExcepcionM8:'CU264', modificarCupoCreditoM8:'CU265',
  suspenderCreditoM8:'CU266', reactivarCreditoM8:'CU267', configurarLimiteCreditoM8:'CU268',
@@ -159,6 +160,7 @@ const permisosAlternativosOperacion: Record<string, string[]> = {
  consultarLiquidezM7: ['CU228', 'CU229', 'CU231'],
  obtenerPlanificacionAprobacionCotizacion: ['CU25'],
  consultarMargenProyectosM7: ['CU234', 'CU235'],
+ listarClientesB2BCreditoM8: ['CU261'],
  enviarSolicitudCreditoM8: ['CU261'],
 };
 

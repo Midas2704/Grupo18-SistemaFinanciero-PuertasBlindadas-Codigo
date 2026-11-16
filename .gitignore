@@ -8,4 +8,10 @@ build/
 *.log
 *.dump
 *.zip
+*.tar.gz
+*.enc
+*.key
+*.pem
 *.tsbuildinfo
+recovery/
+backups/
