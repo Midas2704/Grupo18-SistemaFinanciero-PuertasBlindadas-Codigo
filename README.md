@@ -1,6 +1,17 @@
-# Puertas Blindadas
+# Módulo Financiero — Puertas Blindadas (Grupo 18)
 
-Sistema académico integrado de Finanzas, Clientes, Cotizaciones, Pagos, Seguridad M4, Auditoría M9, Presupuestos, Inventario, Producción y Terreno.
+Repositorio del **Módulo de Finanzas de Puertas Blindadas**, desarrollado por el Grupo 18 a través de tres incrementos de software.
+
+## Integrantes
+
+- Sebastián Benjamín Bravo Núñez
+- Gianella Belén Catalán Canales
+- Vicente Andrés Hernández Olea
+- Daniella Rosa Catalina Lecanda Garnham
+- Angella Javiera Sánchez López
+- Valentín Ignacio García Farías
+
+Sistema académico integrado de Finanzas.
 
 El repositorio incluye el código fuente recuperado y una base PostgreSQL 18 con datos ficticios de demostración. No contiene credenciales productivas, sesiones activas, tokens de recuperación, claves privadas ni respaldos productivos.
 
