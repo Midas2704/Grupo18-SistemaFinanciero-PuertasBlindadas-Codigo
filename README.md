@@ -1,6 +1,6 @@
 # Módulo Financiero — Puertas Blindadas (Grupo 18)
 
-Repositorio del **Módulo de Finanzas de Puertas Blindadas**, desarrollado por el Grupo 18 a través de tres incrementos de software.
+Repositorio del **Módulo de Finanzas de Puertas Blindadas**, desarrollado por el Grupo 18.
 
 ## Integrantes
 
