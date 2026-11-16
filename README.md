@@ -40,6 +40,7 @@ docker compose --env-file .env -f docker-compose.local.yml -f docker-compose.sou
 ## Documentación
 
 - [Base académica demo](docs/BASE_DE_DATOS_DEMO.md)
+- [Importación mediante DDL y DML](docs/IMPORTACION_SQL.md)
 - [Instalación local](docs/INSTALACION_LOCAL.md)
 - [Restauración](docs/RESTAURACION_BASE_DATOS.md)
 - [Arquitectura](docs/ARQUITECTURA.md)
